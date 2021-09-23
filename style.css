@@ -1,0 +1,38 @@
+.navigation{
+    background-color: #4F46E5;
+    Width :264px;
+    Height :900px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px -2px rgba(0, 0, 0, 0.05), 0px 0px 0px 1px rgba(0, 0, 0, 0.05);
+    color: white;
+
+
+}
+.nav-link{
+    color: white;
+}
+.workflow-logo{
+    margin: 2px;
+    margin-top: 4px;
+    padding: 2px;
+}
+.right-part{
+    background-color: #F4F5F7;
+}
+.flex-container{
+    display: flex;
+    justify-content: right;
+    text-align: right;
+
+    /* border: 12px solid red; */
+    Width: 100%;
+Height: 32px;
+Left :265px;
+Padding: 0px, 32px, 0px, 32px;
+background-color: white;
+}
+.profile-pic img{
+    border-radius: 16px;
+            object-fit:cover;
+            height: 20px;
+            width: 20px;
+}
