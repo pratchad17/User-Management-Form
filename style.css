@@ -30,6 +30,7 @@
    Padding: 0px, 32px, 0px, 32px;
    background-color: white;
 }
+
 .nav-icon{
    Width:16px;
    Height :18px;
@@ -44,10 +45,24 @@
    width: 24px;
 }
 
+/* table stylesheet */
+
+.table-head{
+    background-color: #F3F4F6;
+
+    color: #6B7280;
+
+}
+.table-body{
+    background-color: white;
+    
+    
+}
+
 
 .button-action{
     height: 25px;
-    width: 55px;
+    width: 56px;
     border: 1px solid #D1FAE5;
     border-radius: 12px;
     background-color: #D1FAE5;
@@ -58,4 +73,25 @@
 }
 .action-text{
     color: green;
+}
+.button-blocked{
+    height: 25px;
+    width: 58px;
+    border:1px solid #f3f4f6;
+    border-radius: 10px;
+    background-color: #6fd5e7;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    
+
+}
+.blocked-text{
+    color:#1f2a3a;
+    font-weight: 500;
+}
+
+.edit{
+    margin-left: 4px;
+    margin-right: 4px;
 }
