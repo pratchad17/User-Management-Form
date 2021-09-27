@@ -47,6 +47,16 @@
 
 /* table stylesheet */
 
+.head-user{
+
+font-family:sans-serif;
+font-style: normal;
+font-size: 24px;
+font-weight: 400;
+
+
+}
+
 .table-head{
     background-color: #F3F4F6;
 
@@ -73,6 +83,8 @@
 }
 .action-text{
     color: green;
+    font-size: small;
+    font-weight: 500;
 }
 .button-blocked{
     height: 25px;
@@ -89,9 +101,47 @@
 .blocked-text{
     color:#1f2a3a;
     font-weight: 500;
+    font-size: small;
+}
+.user-number{
+    font-size: small;
+    font-weight: 600;
+    font-style: normal;
+}
+.time{
+    font-size:small;
+    font-weight: 400;
+    font-style: normal;
+    color: #6B7280;
+    
+}
+.date{
+    font-weight: 400;
+    font-size: small;
+
+}
+.email{
+    font-size:small;
+    font-weight: 400;
+    font-style: normal;
+    color: #6B7280;
+    
+
 }
 
 .edit{
     margin-left: 4px;
     margin-right: 4px;
+    font-size: small;
+    font-weight: 400;
+}
+.btn-sm{
+    font-size: small;
+    box-sizing: border-box;
+}
+.client-type{
+    font-size: small;
+    font-style: normal;
+    font-weight: 400;
+    color: #6B7280;
 }
